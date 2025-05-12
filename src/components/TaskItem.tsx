@@ -18,7 +18,7 @@ const TaskItem: FC<Props> = ({ task, onToggleComplete, onDeleteTask })=>{
             <span style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
         {task.text}
       </span>
-            <button onClick={() => onDeleteTask(task.id)}>Delete</button>
+            <button onClick={() => onDeleteTask(task.id)}>Șterge</button>
         </li>
     );
 }
